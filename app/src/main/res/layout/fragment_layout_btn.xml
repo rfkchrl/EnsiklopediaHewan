@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/bgedit">
+
+
+    <TextView
+        android:id="@+id/txt_esn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ensiklopedia Hewan"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btn_hewan"
+        android:layout_below="@+id/txt_esn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Daftar Hewan"
+        android:layout_marginTop="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/kuningmuda"/>
+    <Button
+        android:id="@+id/btn_satwa"
+        android:layout_below="@+id/btn_hewan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Populasi Hewan"
+        android:textSize="17dp"
+        android:backgroundTint="@color/kuningmuda"/>
+    <Button
+        android:id="@+id/btn_fun"
+        android:layout_below="@+id/btn_satwa"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Fakta Menarik !"
+        android:textSize="17dp"
+
+        android:backgroundTint="@color/kuningmuda"/>
+</RelativeLayout>
