@@ -31,6 +31,7 @@ public class AdapterHewan extends RecyclerView.Adapter<HolderHewan> {
     @Override
     public HolderHewan onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_hewan,parent,false);
+
         final HolderHewan holderHewan = new HolderHewan(itemView);
 
         holderHewan.itemView.setOnClickListener(new View.OnClickListener() {

@@ -7,7 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.LinearLayout;
 
 import arisyrifki.app.ensiklopediahewan.FunActivity;
 import arisyrifki.app.ensiklopediahewan.HewanActivity;
@@ -21,9 +21,9 @@ import arisyrifki.app.ensiklopediahewan.SatwaActivity;
 
 public class FragmentFun extends Fragment {
 
-    private Button btnhewan;
-    private Button btnsatwa;
-    private Button btnfun;
+    private LinearLayout btnhewan;
+    private LinearLayout btnsatwa;
+    private LinearLayout btnfun;
 
     @Nullable
     @Override
@@ -31,9 +31,9 @@ public class FragmentFun extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_layout_btn,container,false);
 
-        btnhewan = (Button) view.findViewById(R.id.btn_hewan);
-        btnsatwa = (Button) view.findViewById(R.id.btn_satwa);
-        btnfun = (Button) view.findViewById(R.id.btn_fun);
+        btnhewan = (LinearLayout) view.findViewById(R.id.btn_hewan);
+        btnsatwa = (LinearLayout) view.findViewById(R.id.btn_satwa);
+        btnfun = (LinearLayout) view.findViewById(R.id.btn_fun);
 
 
         btnhewan.setOnClickListener(new View.OnClickListener() {
