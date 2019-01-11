@@ -13,6 +13,12 @@
         android:text=""
         android:gravity="center" />
     <TextView
+        android:id="@+id/fun_subtitle2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=""
+        android:gravity="center" />
+    <TextView
         android:id="@+id/fun_title"
         android:layout_width="match_parent"
         android:layout_height="100dp"

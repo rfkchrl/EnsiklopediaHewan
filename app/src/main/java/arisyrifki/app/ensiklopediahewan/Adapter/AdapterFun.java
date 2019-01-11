@@ -49,6 +49,12 @@ public class AdapterFun extends RecyclerView.Adapter<HolderFun> {
     public void onBindViewHolder(HolderFun holder, int position) {
         holder.funTitle.setText( fun.get(position).getFunTitle());
         holder.funSubtitle.setText( fun.get(position).getFunSubtitle());
+        holder.funSubtitle2.setText( fun.get(position).getFunSubtitle2());
+
+        holder.img1.setImageResource( fun.get(position).getImg1());
+        holder.img2.setImageResource( fun.get(position).getImg2());
+
+
     }
 
 
